@@ -1,0 +1,17 @@
+\documentclass[12pt,oneside,a4paper]{report}
+
+\usepackage{fontspec}
+\usepackage{graphicx}
+\usepackage{indentfirst}
+\usepackage{hyperref}
+\usepackage[
+	backend=biber,
+	style=alphabetic,
+	sorting=ynt
+	]{biblatex}
+\addbibresource{source.bib}
+
+\begin{document}
+\input{title-page.tex}
+\input{body.tex}
+\end{document}
